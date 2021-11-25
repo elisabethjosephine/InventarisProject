@@ -1,0 +1,99 @@
+.nav {
+  background-color: #09a599;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+}
+.nav-link {
+  color: white;
+  margin-left: -10px;
+}
+.img {
+  width: 134px;
+  height: 36px;
+}
+.panel {
+  display: inline-flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.short {
+  float: right;
+}
+.cards {
+  width: 70%;
+  height: auto;
+  margin-left: 0px;
+  background-color: azure;
+}
+.img-fluid {
+  align-items: center;
+}
+.wrap {
+  background-color: #fff;
+}
+.login {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  align-items: center;
+  font-size: 14pt;
+}
+.form-control {
+  background-color: #f0f0f0;
+  border: none;
+}
+.title-login {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 20px;
+  color: #373737;
+  margin-bottom: 30px;
+}
+.copyright {
+  color: #373737;
+  margin-top: 25px;
+}
+.col-4 {
+  margin-top: 11%;
+  align-content: center;
+  height: 13%;
+  margin: 0 auto;
+}
+#btn-login {
+  background-color: #09a599;
+  width: 100%;
+  height: 11%;
+  margin-top: 20px;
+}
+.img-login {
+  width: 201px;
+  height: 54px;
+  margin-top: 20px;
+  margin-left: 25px;
+}
+.card-img-top {
+  height: 200px;
+  width: 200px;
+}
+.logout {
+  width: 20px;
+  height: 20px;
+  margin-left: 900px;
+}
+.footer {
+  background-color: #09a599;
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 12px;
+  position: fixed;
+  margin-top: auto;
+}
+.col-8 {
+  margin-top: 70px;
+}
+.col {
+  margin-top: 90px;
+}
