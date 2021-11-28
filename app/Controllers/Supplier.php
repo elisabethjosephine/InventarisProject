@@ -44,18 +44,6 @@ class Supplier extends BaseController
     public function save()
     {
 
-        // //ambil gambar
-        // $fileGambar = $this->request->getFile('gambar');
-        // //apakah tidak ada gambar yang diupload
-        // if ($fileGambar->getError() == 4) {
-        //     $namaGambar = 'default.png';
-        // } else {
-        //     //generate nama gambara random
-        //     $namaGambar = $fileGambar->getRandomName();
-        //     //pindahkan file ke folder img
-        //     $fileGambar->move('img', $namaGambar);
-        // }
-
         $newidSupplier = $this->supplierModel->getnewid();
         foreach ($newidSupplier as $newsupid)
 
